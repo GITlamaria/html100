@@ -1,0 +1,20 @@
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;   /* allows for consistent sizing */
+  /* inherits parent's font style instead of the browser default */
+  display: block; /* will line up elements into a column; default is next to each other*/
+  margin: 1rem;  /* will add spacing between labels */
+}
+input[type=submit] {
+  width: 100%;
+  background-color: Steelblue;
+}
+/*applying styles using pseudo selectors */
+input[type=password]:focus {
+  background-color: seagreen;
+  outline: none;
+}
+input {
+  border-radius: 15px;
+}
