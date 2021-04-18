@@ -27,19 +27,23 @@
       <label>Why do you want to adopt a new pet?
         <textarea name="applicationReason" rows="4" cols="50">Because I don't have enough cat hair on my sofa.</textarea>
       </label>
-      <fieldset>
+      <fieldset class="checkbox">
         <legend>What types of animals are you interested in?</legend>
         <label>Dogs
           <input type="checkbox" name="species" value="dogs">
+          <span class="checkmark"></span>
         </label>
         <label>Cats
           <input type="checkbox" name="species" value="cats">
+          <span class="checkmark"></span>
         </label>
         <label>fish
           <input type="checkbox" name="species" value="fish">
+          <span class="checkmark"></span>
         </label>
         <label>snakes
           <input type="checkbox" name="species" value="snakes">
+          <span class="checkmark"></span>
         </label>
       </fieldset>
       <fieldset>
@@ -53,7 +57,7 @@
       </fieldset>
       <label>How many hours a day is someone usually home to keep a pet company?
         <select name="hours">
-          <option value="">Please select</option> 
+          <option value="">Please select</option>
           <option value="few">less than 10</option>
           <option value="some">10 to 16</option>
           <option value="many">more than 16</option>
